@@ -44,6 +44,6 @@
   animation: fade-in-up 0.8s ease-out;
 }
 
-.animation-float {
+.animate-float {
   animation: float 3s ease-in-out infinite;
 }
