@@ -140,10 +140,10 @@ const Hero = ({ hasAnimated }) => {
       </div>
 
       {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-4 h-4 bg-blue-400 rounded-full opacity-60 animate-bounce"></div>
-      <div className="absolute top-40 right-20 w-6 h-6 bg-purple-400 rounded-full opacity-60 animate-bounce delay-1000"></div>
-      <div className="absolute bottom-40 left-20 w-3 h-3 bg-green-400 rounded-full opacity-60 animate-bounce delay-2000"></div>
-      <div className="absolute bottom-20 right-10 w-5 h-5 bg-orange-400 rounded-full opacity-60 animate-bounce delay-3000"></div>
+      <div className="absolute top-20 left-10 w-4 h-4 bg-blue-400 rounded-full opacity-60 animate-float"></div>
+      <div className="absolute top-40 right-20 w-6 h-6 bg-purple-400 rounded-full opacity-60 animate-float delay-1000"></div>
+      <div className="absolute bottom-40 left-20 w-3 h-3 bg-green-400 rounded-full opacity-60 animate-float delay-2000"></div>
+      <div className="absolute bottom-20 right-10 w-5 h-5 bg-orange-400 rounded-full opacity-60 animate-float delay-3000"></div>
     </section>
   );
 };
